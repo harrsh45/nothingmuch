@@ -8,7 +8,7 @@ void main()
 struct details e[4];
 char naam[100];
 int a;
-printf("enter name and salary of the emp\n");
+printf("enter name or anything and salary of the emp\n");
 for(int i=0;i<4;i++)
 {
 scanf("%s %d", e[i].name, &e[i].salary);
